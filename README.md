@@ -38,8 +38,8 @@ Include /usr/local/etc/httpd/extra/httpd-vhosts.conf # include this
 
 - Restart Apache
 ```
-Ezzats-MacBook-Pro:~ ezzat$ sudo apachectl stop
-Ezzats-MacBook-Pro:~ ezzat$ sudo apachectl start
+sudo apachectl stop
+sudo apachectl start
 ```
 
 ## Node
