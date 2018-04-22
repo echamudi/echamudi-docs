@@ -43,7 +43,7 @@ sudo apachectl start
 ```
 
 ### Nice sites
-- [https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions ]
+- https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions
 
 ## Node
 
@@ -84,7 +84,7 @@ CREATE USER 'ezzat'@'localhost' IDENTIFIED BY 'password';
 
 ```
 ### Sufficient user privileges for Wordpress
-[https://wordpress.stackexchange.com/questions/6424/mysql-database-user-which-privileges-are-needed ]
+https://wordpress.stackexchange.com/questions/6424/mysql-database-user-which-privileges-are-needed
 ```
 I've found at least one article that claims the MySQL user only needs:
 
