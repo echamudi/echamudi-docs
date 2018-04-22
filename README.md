@@ -1,6 +1,6 @@
 # Docs
 
-Personal Documentations
+This repo contains my personal snippets, notes, and documentations. Some snippets below might not work in your environment.
 
 ## Apache
 ### Config
@@ -36,7 +36,13 @@ Include /usr/local/etc/httpd/extra/httpd-vhosts.conf # include this
 127.0.0.1		example.test
 ```
 
-## Node Commands
+- Restart Apache
+```
+Ezzats-MacBook-Pro:~ ezzat$ sudo apachectl stop
+Ezzats-MacBook-Pro:~ ezzat$ sudo apachectl start
+```
+
+## Node
 
 ### Update all locals node modules
 ```
