@@ -1,16 +1,13 @@
-## MySQL
-### Login
+# MySQL
+## Login
 ```
 mysql -u [username/root] -p
-
 ```
-### Create user
+## Create user
 ```
 CREATE USER 'ezzat'@'localhost' IDENTIFIED BY 'password';
-
 ```
-### Sufficient user privileges for Wordpress
-https://wordpress.stackexchange.com/questions/6424/mysql-database-user-which-privileges-are-needed
+## Sufficient user privileges for Wordpress
 ```
 I've found at least one article that claims the MySQL user only needs:
 
@@ -28,6 +25,7 @@ ALTER (for updates)
 Also, not referenced but it makes sense:
 
 INDEX
-
 ```
 Make sure the database previleges are also on.
+
+https://wordpress.stackexchange.com/questions/6424/mysql-database-user-which-privileges-are-needed
