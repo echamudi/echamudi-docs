@@ -105,3 +105,9 @@ INDEX
 
 ```
 Make sure the database previleges are also on.
+
+## Node
+
+### Good Plugins
+
+- Easy WP SMTP
