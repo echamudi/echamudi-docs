@@ -1,4 +1,35 @@
 # CSS
+Contains snippet for both CSS and SCSS
+## Button states
+```
+.active {
+    background: none;       // original state
+
+    &:hover {
+      background: blue;     // hover
+    }
+
+    &:active {
+      background: red;      // currently being clicked
+    }
+
+    &:focus {
+      background: green;    // right after clicked
+    }
+}
+```
+## SCSS Maps
+```scss
+$grid-breakpoints: (
+  a: 20px,
+  b: 40px,
+  c: 60px
+);
+
+.test {
+  height: map-get($grid-breakpoints, md);
+}
+```
 ## Favourite order
 ```
 "order/order": [
