@@ -20,14 +20,14 @@ Contains snippet for both CSS and SCSS
 ```
 ## SCSS Maps
 ```scss
-$grid-breakpoints: (
+$array: (
   a: 20px,
   b: 40px,
   c: 60px
 );
 
 .test {
-  height: map-get($grid-breakpoints, md);
+  height: map-get($array, a);
 }
 ```
 ## Favourite order
