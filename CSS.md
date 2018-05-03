@@ -9,12 +9,12 @@ Contains snippet for both CSS and SCSS
       background: blue;     // hover
     }
 
-    &:active {
-      background: red;      // currently being clicked
-    }
-
     &:focus {
       background: green;    // right after clicked
+    }
+
+    &:active {
+      background: red;      // currently being clicked
     }
 }
 ```
