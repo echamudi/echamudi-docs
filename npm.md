@@ -1,4 +1,4 @@
-# Node
+# npm
 ## Update all locals node modules
 ```
 ncu
