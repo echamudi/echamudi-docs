@@ -6,5 +6,5 @@ This repo contains my personal snippets, notes, and documentations. Some snippet
 - [Java](Java.md)
 - [JavaScript](JavaScript.md)
 - [MySQL](MySQL.md)
-- [Node](Node.md)
+- [NPM](NPM.md)
 - [Wordpress](Wordpress.md)
