@@ -15,15 +15,15 @@
             wanikani_kanji = response[0];
         })
 
-        // Get koohii mnemoics
+        // Get koohii mnemonics
         .then(function () {
-            return fetch('_ezzat-koohii-mnemoics.json');
+            return fetch('_ezzat-koohii-mnemonics.json');
         })
         .then(function (response) {
             return response.json();
         })
         .then(function (response) {
-            koohii_mnemoics = response[0];
+            koohii_mnemonics = response[0];
         })
 
         // Get the word
