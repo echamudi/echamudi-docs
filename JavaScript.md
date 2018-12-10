@@ -57,6 +57,17 @@
     var fileList = [];
     var files = {};
     
+    // Get Files
+    fileUrls.forEach(function(url, i) {
+        fileList.push(
+            fetch(url.url).then(function(res){
+                return res.text(); 
+            }).then(function(res){
+                files[url.id] = res; 
+            })
+        );
+    });
+
     // After files loaded
     Promise
         .all(fileList)
