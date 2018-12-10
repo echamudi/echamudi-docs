@@ -44,3 +44,25 @@
             });
         });
 ```
+## Load Multiple Files
+
+```js
+    // Files
+    var fileUrls = [
+        {
+            id: 'kanshudo',
+            url: '_ezzat-kanshudo-components.json',
+        }
+        ];
+    var fileList = [];
+    var files = {};
+    
+    // After files loaded
+    Promise
+        .all(fileList)
+        .then(function() {
+
+            // Do something
+        });
+
+```
