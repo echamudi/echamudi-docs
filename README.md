@@ -3,6 +3,7 @@ This repo contains my personal snippets, notes, and documentations. Some snippet
 ## Contents
 - [Apache](Apache.md)
 - [CSS](CSS.md)
+- [Git](Git.md)
 - [Java](Java.md)
 - [JavaScript](JavaScript.md)
 - [MySQL](MySQL.md)
