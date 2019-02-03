@@ -2,7 +2,7 @@
 Contains snippet for both CSS and SCSS
 ## Button states
 ```scss
-// order is important: hover, active, focus
+// order is important: hover, focus, active
 .active {
     background: none;       // original state
 
