@@ -2,6 +2,7 @@
 Contains snippet for both CSS and SCSS
 ## Button states
 ```scss
+// order is important: hover, active, focus
 .active {
     background: none;       // original state
 
@@ -9,12 +10,12 @@ Contains snippet for both CSS and SCSS
       background: blue;     // hover
     }
 
-    &:active {
-      background: red;      // currently being clicked
-    }
-
     &:focus {
       background: green;    // right after clicked / left
+    }
+
+    &:active {
+      background: red;      // currently being clicked
     }
 }
 ```
