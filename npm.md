@@ -1,9 +1,19 @@
 # npm
+
 ## Update all locals node modules
 ```
 ncu
 ncu -u
+ncu -a
+npm install
 ```
+
+## Update some locals node modules
+```
+ncu
+npm install [package1 package2 …]
+```
+
 ## Update all global node modules
 ```
 ncu -g
