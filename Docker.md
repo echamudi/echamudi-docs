@@ -56,27 +56,14 @@ docker exec -i -t <container-name> /bin/bash
 docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
 ```
 
-## Persisting container
-
-https://stackoverflow.com/questions/19585028/i-lose-my-data-when-the-container-exits
-
-Using commit
-
-```sh
-docker run --name my-ubuntu -it ubuntu /bin/bash
-
-$ # do something inside container
-$ exit
-
-docker commit <container-id> new_image_name:tag_name(optional)
-
-```
-
 ## Personal Ubuntu OS for development
 
 ```sh
 # Building
 docker run -it -v "/Users/ezzat/ubuntu/disk:/var/disk" --name my-ubuntu ubuntu bash
+  # install node
+  # install mc
+  # install etc...
   exit
 
 # turn off
