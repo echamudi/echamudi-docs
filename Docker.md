@@ -15,8 +15,9 @@ docker pull <image-name>
 docker build -t <image-name> .
 
 # Run
+# https://medium.com/the-code-review/top-10-docker-run-command-options-you-cant-live-without-a-reference-d256834e86c1
 docker run \ 
-  --rm \                    # rm when exits
+  --rm \                    # rm when exit
   --detach \                # in background
   --env KEY=VALUE \         # env variables
   --ip 10.10.9.75 \         # ip address
@@ -26,8 +27,10 @@ docker run \
   --tty --interactive \ 
   --volume /my_volume \
   --workdir /app \ 
-  IMAGE bash
+  <image-name> \
+  bash                      # enter bash
 
+docker run --name my-ubuntu-temp -it ubuntu bash
 
 # Compose and run in background
 # --detach
@@ -47,5 +50,8 @@ docker kill $(docker ps -q) # kill in batcs
 
 # enter container bash
 # --interactive --tty
-docker exec -i -t <container-name> bash
+docker exec -i -t <container-name> /bin/bash
+
+# update all images
+docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
 ```
