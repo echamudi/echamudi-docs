@@ -76,21 +76,23 @@ docker commit <container-id> new_image_name:tag_name(optional)
 
 ```sh
 # Building
-docker run -it --name my-ubuntu ubuntu bash
-  exit
-docker commit my-ubuntu my-ubuntu-img:latest
-docker rm my-ubuntu
-docker run -it -v "/Users/ezzat/ubuntu/disk:/var/disk" --name my-ubuntu my-ubuntu-img bash
+docker run -it -v "/Users/ezzat/ubuntu/disk:/var/disk" --name my-ubuntu ubuntu bash
   exit
 
 # turn off
 docker stop my-ubuntu
 
-# save state
-docker commit my-ubuntu my-ubuntu-img:latest
-
 # turn on
-docker start my-ubuntu
-docker exec -it my-ubuntu bash
+docker start my-ubuntu && docker exec -it my-ubuntu bash
   cd /var/disk
+
+# save screenshot
+docker commit my-ubuntu my-ubuntu-img:backup-1
+docker commit my-ubuntu my-ubuntu-img:backup-2
+docker commit my-ubuntu my-ubuntu-img:backup-3
+
+# delete screenshot
+docker rmi my-ubuntu-img:backup-1
+docker rmimy-ubuntu-img:backup-2
+
 ```
