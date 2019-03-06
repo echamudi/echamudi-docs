@@ -14,6 +14,21 @@ docker pull <image-name>
 # --tag 
 docker build -t <image-name> .
 
+# Run
+docker run \ 
+  --rm \                    # rm when exits
+  --detach \                # in background
+  --env KEY=VALUE \         # env variables
+  --ip 10.10.9.75 \         # ip address
+  --publish 3000:3000 \
+  --volume my_volume \
+  --name my_container \
+  --tty --interactive \ 
+  --volume /my_volume \
+  --workdir /app \ 
+  IMAGE bash
+
+
 # Compose and run in background
 # --detach
 docker-compose up -d 
