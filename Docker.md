@@ -1,11 +1,11 @@
 # Docker
 ```sh
-# List containers
-docker ps # running only
-docker ps -a # -all
-
-# List images
-docker images
+# List
+docker stack ls 
+docker image ls 
+docker network ls 
+docker container ls # running only
+docker container ls -a # -all
 
 # Download image
 docker pull <image-name>
@@ -32,15 +32,21 @@ docker run \
 
 docker run --name my-ubuntu-temp -it ubuntu bash
 
-# Compose and run in background
-# --detach
-docker-compose up -d 
+# Deploy
+docker stack deploy --compose-file <docker-compose-yml> <stack-name>  # Starting
+docker rm <stack-name>                                                # Deleting
+
+# Running compose in development
+docker-compose up     # Starting
+docker-compose up -d  # Starting in background mode
+docker-compose down   # Stopping
 
 # Delete
 docker rm <container-name>
 docker rm <image-name>
 docker rm $(docker ps -a -q) # delete all stopped containers
 docker rmi $(docker images -q) # delete all images
+docker stack rm <stack-name>
 
 # Start and stop
 docker start <container-name>
