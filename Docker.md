@@ -4,7 +4,7 @@
 docker stack ls 
 docker image ls 
 docker network ls 
-docker container ls # running only
+docker container ls # running cotainers only
 docker container ls -a # -all
 
 # Download image
@@ -32,15 +32,6 @@ docker run \
 
 docker run --name my-ubuntu-temp -it ubuntu bash
 
-# Deploy
-docker stack deploy --compose-file <docker-compose-yml> <stack-name>  # Starting
-docker rm <stack-name>                                                # Deleting
-
-# Running compose in development
-docker-compose up     # Starting
-docker-compose up -d  # Starting in background mode
-docker-compose down   # Stopping
-
 # Delete
 docker rm <container-name>
 docker rm <image-name>
@@ -48,7 +39,18 @@ docker rm $(docker ps -a -q) # delete all stopped containers
 docker rmi $(docker images -q) # delete all images
 docker stack rm <stack-name>
 
-# Start and stop
+# Start and Stop Stack
+docker stack deploy --compose-file <docker-compose-yml> <stack-name>  # Starting
+docker rm <stack-name>                                                # Deleting
+
+# Start and Stop Compose in Development
+docker-compose up     # Starting
+docker-compose up -d  # Starting in background mode
+docker-compose down   # Stopping
+
+docker-compose run <service-name> <command>   # Runs a one-time command against a service (it will create new temp container)
+
+# Start and Stop Container
 docker start <container-name>
 docker stop <container-name>
 docker kill <container-name> # forcefully
