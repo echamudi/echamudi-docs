@@ -78,7 +78,7 @@ docker run -it -v "/Users/ezzat/ubuntu/disk:/var/disk" --name my-ubuntu ubuntu b
 docker stop my-ubuntu
 
 # turn on
-docker start my-ubuntu && docker exec -it my-ubuntu bash
+docker start testvolume_myvol_1 && docker exec -it testvolume_myvol_1 bash
   cd /var/disk
 
 # save screenshot
@@ -91,3 +91,6 @@ docker rmi my-ubuntu-img:backup-1
 docker rmimy-ubuntu-img:backup-2
 
 ```
+
+## Other Notes
+- Using volume option like `-v "./host_folder:/container_folder"`. If `/container_folder` in the container contains some data, those data will be unvisible/deleted.
