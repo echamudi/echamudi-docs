@@ -35,9 +35,17 @@ docker run --name my-ubuntu-temp -it ubuntu bash
 # Delete
 docker rm <container-name>
 docker rm <image-name>
-docker rm $(docker ps -a -q) # delete all stopped containers
-docker rmi $(docker images -q) # delete all images
 docker stack rm <stack-name>
+
+# Clean unused stuffs
+docker system prune             # delete all unused objects
+docker system prune --volumes   # delete all unused objects + volumes
+docker stop $(docker ps -a -q)  # stop all containers
+docker container prune          # delete stopped containers
+docker image prune              # delete images (not tagged and not used by containers)
+docker image prune -a           # delete images (not used by containers)
+docker volume prune             # delete unused volumes
+docker network prune            # delete unused networks
 
 # Start and Stop Stack
 docker stack deploy --compose-file <docker-compose-yml> <stack-name>  # Starting
@@ -54,7 +62,7 @@ docker-compose run <service-name> <command>   # Runs a one-time command against 
 docker start <container-name>
 docker stop <container-name>
 docker kill <container-name> # forcefully
-docker kill $(docker ps -q) # kill in batcs
+docker kill $(docker ps -q) # kill in batch
 
 # enter container bash
 # --interactive --tty
