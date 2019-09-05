@@ -46,6 +46,7 @@ docker image prune              # delete images (not tagged and not used by cont
 docker image prune -a           # delete images (not used by containers)
 docker volume prune             # delete unused volumes
 docker network prune            # delete unused networks
+docker service rm $(docker service ls -q) # delete all services
 
 # Start and Stop Stack
 docker stack deploy --compose-file <docker-compose-yml> <stack-name>  # Starting
