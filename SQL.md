@@ -9,6 +9,7 @@ SET beer_brewername = (SELECT brewery_name
                        WHERE ID = BeerReviewsWithText.ID)
 ```
 
-https://stackoverflow.com/questions/17702902/in-sqlite3-copy-a-column-from-one-table-to-another-table
+> Reference
+> https://stackoverflow.com/questions/17702902/in-sqlite3-copy-a-column-from-one-table-to-another-table
 
 

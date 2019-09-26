@@ -15,7 +15,6 @@ docker pull <image-name>
 docker build -t <image-name> .
 
 # Run
-# https://medium.com/the-code-review/top-10-docker-run-command-options-you-cant-live-without-a-reference-d256834e86c1
 docker run \ 
   --rm \                    # rm when exit
   --detach \                # in background
@@ -72,6 +71,9 @@ docker exec -i -t <container-name> /bin/bash
 # update all images
 docker images |grep -v REPOSITORY|awk '{print $1}'|xargs -L1 docker pull
 ```
+
+> Reference
+> https://medium.com/the-code-review/top-10-docker-run-command-options-you-cant-live-without-a-reference-d256834e86c1
 
 ## Personal Ubuntu OS for development
 

@@ -24,4 +24,5 @@ INDEX
 ```
 Make sure the database previleges are also on.
 
-https://wordpress.stackexchange.com/questions/6424/mysql-database-user-which-privileges-are-needed
+> Reference
+> https://wordpress.stackexchange.com/questions/6424/mysql-database-user-which-privileges-are-needed

@@ -104,10 +104,9 @@ This guide is mainly for local development. It requires some additional steps fo
     nginx
     ```
 
-## References
-
-https://www.akadia.com/services/ssh_test_certificate.html
-
-https://community.letsencrypt.org/t/howto-a-with-all-100-s-on-ssl-labs-test-using-nginx-mainline-stable/55033/2
-
-https://medium.com/@aditya.vssut/setting-up-nginx-configuration-to-get-an-a-in-ssl-labs-server-test-e0e25098d634
+> References
+> https://www.akadia.com/services/ssh_test_certificate.html
+>
+> https://community.letsencrypt.org/t/howto-a-with-all-100-s-on-ssl-labs-test-using-nginx-mainline-stable/55033/2
+>
+> https://medium.com/@aditya.vssut/setting-up-nginx-configuration-to-get-an-a-in-ssl-labs-server-test-e0e25098d634
