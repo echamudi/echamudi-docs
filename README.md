@@ -2,14 +2,18 @@
 This repo contains my personal snippets, notes, and documentations. Some snippets below might not work in your environment. 
 
 ## Contents
+- [Angular](Angular.md)
 - [Apache](Apache.md)
 - [CSS](CSS.md)
 - [Docker](Docker.md)
 - [Git](Git.md)
 - [Java](Java.md)
 - [JavaScript](JavaScript.md)
+- [MacOS Bash](MacBash.md)
 - [MySQL](MySQL.md)
 - [npm](npm.md)
+- [SQL](SQL.md)
+- [TypeScript](TypeScript.md)
 - [Wordpress](Wordpress.md)
 
 ## License
