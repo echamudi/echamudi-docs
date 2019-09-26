@@ -1,4 +1,5 @@
 # JavaScript
+
 ## Simple Dropdown Toggle
 ```js
   document.getElementById('mobile-menu-toggle').onclick = () => {

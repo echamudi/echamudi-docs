@@ -1,4 +1,5 @@
 # Mac Bash
+
 ## Environment VAriable
 ```sh
 # Set environment variable

@@ -1,4 +1,6 @@
-Copy from another table
+# SQL
+
+## Copy from another table
 
 ```SQL
 UPDATE BeerReviewsWithText
