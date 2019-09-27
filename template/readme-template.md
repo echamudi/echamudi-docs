@@ -56,7 +56,7 @@ Code and documentation copyright {{year}} the [{{project_name}} Project Authors]
 
 {{project_name}} code is licensed under {{code_license}}. Images, logos, docs, and articles in this {{project_name}} project are released under {{cc_license}}.
 
-Libraries, dependencies, and tools used in this project aret tied with their own licenses respectively.
+Libraries, dependencies, and tools used in this project are tied with their own licenses respectively.
 
 
 <!--
