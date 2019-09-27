@@ -1,4 +1,4 @@
-# {{ project_name }}
+# {{project_name}}
 
 <!-- pills -->
 <!-- logo -->
@@ -16,8 +16,8 @@
 
 | Branch | Status |
 | - | - |
-| master | [![Build Status](https://travis-ci.org/{{ travis_username }}/{{ travis_repo }}.svg?branch=master)](https://travis-ci.org/{{ travis_username }}/{{ travis_repo }}) |
-| develop | [![Build Status](https://travis-ci.org/{{ travis_username }}/{{ travis_repo }}.svg?branch=develop)](https://travis-ci.org/{{ travis_username }}/{{ travis_repo }}) |
+| master | [![Build Status](https://travis-ci.org/{{travis_username}}/{{travis_repo}}.svg?branch=master)](https://travis-ci.org/{{travis_username}}/{{travis_repo}}) |
+| develop | [![Build Status](https://travis-ci.org/{{travis_username}}/{{travis_repo}}.svg?branch=develop)](https://travis-ci.org/{{travis_username}}/{{travis_repo}}) |
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ This project is following this [Git branching model](https://nvie.com/files/Git-
 
 ### Versioning
 
-This project uses [SemVer](http://semver.org/) for versioning. For all past versions, see the [tags on this repository](https://github.com/{{ username }}/{{ repo }}/tags). 
+This project uses [SemVer](http://semver.org/) for versioning. For all past versions, see the [tags on this repository](https://github.com/{{username}}/{{repo}}/tags). 
 
 ### Testing
 
@@ -41,15 +41,15 @@ Make sure your contributions are compatible with the license of this code.
 
 ## Authors
 
-* **Ezzat Chamudi** - [{{ username }}](https://github.com/{{ username }})
+* **Ezzat Chamudi** - [{{username}}](https://github.com/{{username}})
 
-See also the list of [contributors](https://github.com/{{ username }}/{{ repo }}/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/{{username}}/{{repo}}/graphs/contributors) who participated in this project.
 
 ## License
 
-Code and documentation copyright {{ year }} the [{{ project_name }} Authors](https://github.com/{{ username }}/{{ repo }}/graphs/contributors). 
+Code and documentation copyright {{year}} the [{{project_name}} Authors](https://github.com/{{username}}/{{repo}}/graphs/contributors). 
 
-{{ project_name }} code is licensed under {{ code_license }}. Images, logos, docs, and articles in this {{ project_name }} project are released under {{ cc_license }}.
+{{project_name}} code is licensed under {{code_license}}. Images, logos, docs, and articles in this {{project_name}} project are released under {{cc_license}}.
 
 Libraries, dependencies, and tools used in this project aret tied with their own licenses respectively.
 
