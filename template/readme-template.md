@@ -49,7 +49,7 @@ See also the list of [contributors](https://github.com/{{username}}/{{repo}}/gra
 
 ## License
 
-Code and documentation copyright {{year}} the [{{project_name}} Authors](https://github.com/{{username}}/{{repo}}/graphs/contributors). 
+Code and documentation copyright {{year}} the [{{project_name}} Project Authors](https://github.com/{{username}}/{{repo}}/graphs/contributors). 
 
 {{project_name}} code is licensed under {{code_license}}. Images, logos, docs, and articles in this {{project_name}} project are released under {{cc_license}}.
 
