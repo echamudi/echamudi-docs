@@ -41,7 +41,7 @@ Make sure your contributions are compatible with the license of this code.
 
 ## Authors
 
-* **Ezzat Chamudi** - *Initial work* - [{{ username }}](https://github.com/{{ username }})
+* **Ezzat Chamudi** - [{{ username }}](https://github.com/{{ username }})
 
 See also the list of [contributors](https://github.com/{{ username }}/{{ repo }}/graphs/contributors) who participated in this project.
 
