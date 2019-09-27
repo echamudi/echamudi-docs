@@ -7,14 +7,17 @@
 
 ## About This Project
 
+### Compatibility
+
+### Built with
+
+## Releases
+
 ## Usage
 
 <!-- how to use this project (as end user) -->
 
 ## Development
-
-
-### Current Build Status
 
 | Branch | Status |
 | - | - |
@@ -23,7 +26,7 @@
 
 <!-- Pre req -->
 
-### Installing
+### Getting Started
 
 ### Developing
 
