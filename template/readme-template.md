@@ -59,6 +59,7 @@ Libraries, dependencies, and tools used in this project aret tied with their own
 <!--
 Licenses list
 [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+https://www.gnu.org/licenses/agpl-3.0.txt
 
 [MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 https://www.mozilla.org/media/MPL/2.0/index.815ca599c9df.txt
