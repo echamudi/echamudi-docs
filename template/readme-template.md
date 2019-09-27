@@ -5,6 +5,8 @@
 <!-- description -->
 <!-- screenshots -->
 
+## About This Project
+
 ## Usage
 
 <!-- how to use this project (as end user) -->
@@ -19,13 +21,11 @@
 | master | [![Build Status](https://travis-ci.org/{{travis_username}}/{{travis_repo}}.svg?branch=master)](https://travis-ci.org/{{travis_username}}/{{travis_repo}}) |
 | develop | [![Build Status](https://travis-ci.org/{{travis_username}}/{{travis_repo}}.svg?branch=develop)](https://travis-ci.org/{{travis_username}}/{{travis_repo}}) |
 
-### Prerequisites
+<!-- Pre req -->
 
 ### Installing
 
 ### Developing
-
-This project is following this [Git branching model](https://nvie.com/files/Git-branching-model.pdf). Please create a seperate branch for new features or bug fixes. 
 
 ### Versioning
 
@@ -36,6 +36,8 @@ This project uses [SemVer](http://semver.org/) for versioning. For all past vers
 ### Building
 
 ## Contributing
+
+This project is following this [Git branching model](https://nvie.com/files/Git-branching-model.pdf). Please create a seperate branch for new features or bug fixes. 
 
 Make sure your contributions are compatible with the license of this code.
 
