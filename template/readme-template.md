@@ -44,6 +44,8 @@ This project is following this [Git branching model](https://nvie.com/files/Git-
 
 Make sure your contributions are compatible with the license of this code.
 
+## Acknowledgment
+
 ## Authors
 
 * **Ezzat Chamudi** - [{{username}}](https://github.com/{{username}})
