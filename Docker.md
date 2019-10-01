@@ -104,4 +104,4 @@ docker rmimy-ubuntu-img:backup-2
 ```
 
 ## Other Notes
-- Using volume option like `-v "./host_folder:/container_folder"`. If `/container_folder` in the container contains some data, those data will be unvisible/deleted.
+- Using volume option like `-v "./host_folder:/container_folder"`. If `/container_folder` in the container contains some data, those data will be invisible/deleted.
