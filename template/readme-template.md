@@ -13,6 +13,8 @@
 
 ## Releases
 
+Please check [releases](https://github.com/{{username}}/{{repo}}/releases) for stable versions. The master branch contains latest development changes that might be unstable.
+
 ## Usage
 
 <!-- how to use this project (as end user) -->
