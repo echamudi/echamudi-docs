@@ -44,7 +44,7 @@ This project uses [SemVer](http://semver.org/) for versioning. For all past vers
 
 <!-- GitFlow Type -->
 
-This project is following this [GitFlow branching model](https://github.com/echamudi/echamudi-docs/raw/master/git-strategy/gitflow.pdf). 
+This project is following [git-flow branching model](https://github.com/echamudi/echamudi-docs/raw/master/git-strategy/gitflow.pdf). 
 - Please create a branch from `develop`.
 - Name it something descriptive other than `master`, `develop`, `release-*`, or `hotfix-*`.
 - Open a pull request to `develop`.
@@ -52,7 +52,7 @@ This project is following this [GitFlow branching model](https://github.com/echa
 Make sure your contributions are compatible with the license of this code.
 
 <!-- GithubFlow Type -->
-This project is following this [GitHub flow branching model](https://guides.github.com/introduction/flow/). 
+This project is following [GitHub flow branching model](https://guides.github.com/introduction/flow/). 
 - Please create a branch from `master`.
 - Name it something descriptive other than `master`.
 - Open a pull request to `master`.
