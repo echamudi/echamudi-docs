@@ -42,7 +42,20 @@ This project uses [SemVer](http://semver.org/) for versioning. For all past vers
 
 ## Contributing
 
-This project is following this [Gitflow branching model](https://nvie.com/files/Git-branching-model.pdf). Please create a seperate branch for new features or bug fixes. 
+<!-- GitFlow Type -->
+
+This project is following this [GitFlow branching model](https://github.com/echamudi/echamudi-docs/raw/master/git-strategy/gitflow.pdf). 
+- Please create a branch from `develop`.
+- Name it something descriptive other than `master`, `develop`, `release-*`, or `hotfix-*`.
+- Open a pull request to `develop`.
+
+Make sure your contributions are compatible with the license of this code.
+
+<!-- GithubFlow Type -->
+This project is following this [GitHub flow branching model](https://guides.github.com/introduction/flow/). 
+- Please create a branch from `master`.
+- Name it something descriptive other than `master`.
+- Open a pull request to `master`.
 
 Make sure your contributions are compatible with the license of this code.
 
