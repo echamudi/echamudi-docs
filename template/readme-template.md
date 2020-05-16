@@ -13,7 +13,7 @@
 
 ## Releases
 
-Please check [releases](https://github.com/{{username}}/{{repo}}/releases) for stable versions. The master branch contains latest development changes that might be unstable.
+Please check [releases](https://github.com/echamudi/{{repo}}/releases) for stable versions. The master branch contains latest development changes that might be unstable.
 
 ## Usage
 
@@ -34,7 +34,7 @@ Please check [releases](https://github.com/{{username}}/{{repo}}/releases) for s
 
 ### Versioning
 
-This project uses [SemVer](http://semver.org/) for versioning. For all past versions, see the [tags on this repository](https://github.com/{{username}}/{{repo}}/tags). 
+This project uses [SemVer](http://semver.org/) for versioning. For all past versions, see the [tags on this repository](https://github.com/echamudi/{{repo}}/tags). 
 
 ### Testing
 
@@ -50,15 +50,15 @@ Make sure your contributions are compatible with the license of this code.
 
 ## Authors
 
-* **Ezzat Chamudi** - [{{username}}](https://github.com/{{username}})
+* **Ezzat Chamudi** - [echamudi](https://github.com/echamudi)
 
-See also the list of [contributors](https://github.com/{{username}}/{{repo}}/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/echamudi/{{repo}}/graphs/contributors) who participated in this project.
 
 ## License
 
-Copyright © {{year}} [Ezzat Chamudi](https://github.com/ezhmd) and [{{project_name}} Project Authors](https://github.com/{{username}}/{{repo}}/graphs/contributors)
+Copyright © {{year}} [Ezzat Chamudi](https://github.com/echamudi) and [{{project_name}} Project Authors](https://github.com/echamudi/{{repo}}/graphs/contributors)
 
-{{project_name}} code is licensed under {{code_license}}. Images, logos, docs, and articles in this {{project_name}} project are released under {{cc_license}}.
+{{project_name}} code is licensed under {{code_license}}. Images, logos, docs, and articles in this project are released under {{cc_license}}.
 
 Libraries, dependencies, and tools used in this project are tied with their own licenses respectively.
 
