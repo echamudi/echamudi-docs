@@ -1,4 +1,4 @@
-# EZHMD Docs
+# EChamudi Docs
 This repo contains my personal snippets, notes, and documentations. Some snippets below might not work in your environment. 
 
 ## Contents
@@ -18,9 +18,9 @@ This repo contains my personal snippets, notes, and documentations. Some snippet
 
 ## License
 
-EZHMD Docs (c) by Ezzat Chamudi
+EChamudi Docs © 2019 Ezzat Chamudi
 
-EZHMD Docs is licensed under a
+EChamudi Docs is licensed under a
 Creative Commons Attribution 4.0 International License.
 
 You should have received a copy of the license along with this
