@@ -42,7 +42,7 @@ This project uses [SemVer](http://semver.org/) for versioning. For all past vers
 
 ## Contributing
 
-This project is following this [Git branching model](https://nvie.com/files/Git-branching-model.pdf). Please create a seperate branch for new features or bug fixes. 
+This project is following this [Gitflow branching model](https://nvie.com/files/Git-branching-model.pdf). Please create a seperate branch for new features or bug fixes. 
 
 Make sure your contributions are compatible with the license of this code.
 
