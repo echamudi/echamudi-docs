@@ -49,7 +49,7 @@ This project is following [git-flow branching model](https://github.com/echamudi
 - Name it something descriptive other than `master`, `develop`, `release-*`, or `hotfix-*`.
 - Open a pull request to `develop`.
 
-Make sure your contributions are compatible with the license of this code.
+Make sure your contributions are compatible with the license of this project.
 
 <!-- GithubFlow Type -->
 
@@ -60,7 +60,7 @@ This project is following [GitHub flow branching model](https://guides.github.co
 - Name it something descriptive other than `master`.
 - Open a pull request to `master`.
 
-Make sure your contributions are compatible with the license of this code.
+Make sure your contributions are compatible with the license of this project.
 
 ## Acknowledgment
 
