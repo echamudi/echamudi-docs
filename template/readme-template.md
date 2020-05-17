@@ -44,7 +44,7 @@ This project uses [SemVer](http://semver.org/) for versioning. For all past vers
 
 ## Contributing
 
-This project is following [git-flow branching model](https://github.com/echamudi/echamudi-docs/raw/master/git-strategy/gitflow.pdf). 
+This project is following [git-flow branching model](https://github.com/echamudi/echamudi-docs/blob/master/git-strategy/gitflow.png). 
 - Please create a branch from `develop`.
 - Name it something descriptive other than `master`, `develop`, `release-*`, or `hotfix-*`.
 - Open a pull request to `develop`.
