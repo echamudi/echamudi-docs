@@ -40,9 +40,9 @@ This project uses [SemVer](http://semver.org/) for versioning. For all past vers
 
 ### Building
 
-## Contributing
-
 <!-- GitFlow Type -->
+
+## Contributing
 
 This project is following [git-flow branching model](https://github.com/echamudi/echamudi-docs/raw/master/git-strategy/gitflow.pdf). 
 - Please create a branch from `develop`.
@@ -52,6 +52,9 @@ This project is following [git-flow branching model](https://github.com/echamudi
 Make sure your contributions are compatible with the license of this code.
 
 <!-- GithubFlow Type -->
+
+## Contributing
+
 This project is following [GitHub flow branching model](https://guides.github.com/introduction/flow/). 
 - Please create a branch from `master`.
 - Name it something descriptive other than `master`.
@@ -73,8 +76,7 @@ Copyright © {{year}} [Ezzat Chamudi](https://github.com/echamudi) and [{{projec
 
 {{project_name}} code is licensed under {{code_license}}. Images, logos, docs, and articles in this project are released under {{cc_license}}.
 
-Libraries, dependencies, and tools used in this project are tied with their own licenses respectively.
-
+Libraries, dependencies, and tools used in this project are tied with their licenses.
 
 <!--
 Licenses list
