@@ -189,3 +189,24 @@ Employee.prototype.getEmpInfo = function () {
     return [this.empId, this.firstName, this.lastName];
 };
 ```
+
+## Call, Apply, Bind
+
+```js
+"use strict"
+
+var person = {
+    name: "Thomas",
+    hello: function(thing) {
+      console.log(this.name + " says hello " + thing);
+    }
+}
+
+var otherObject = {
+    name: "Ezzat"
+}
+
+person.hello.apply(hoy, ['world']);
+person.hello.call(hoy, 'world');
+person.hello.bind(hoy)('world');
+```
