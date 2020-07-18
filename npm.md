@@ -27,3 +27,13 @@ Use nvm
 npm i -D webpack		# install
 npx webpack			    # run
 ```
+
+## When npm scripts are fired?
+
+The following table is a non-exhaustive list of when scripts are executed
+
+|   | `npm install` during development | `npm publish` during development | `npm install` in production |
+|-|-|-|-|
+| install | ✅ |  | ✅ |
+| prepublish | ✅ | ✅ |  |
+| prepublishOnly |  | ✅ | |
